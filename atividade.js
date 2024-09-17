@@ -26,3 +26,46 @@ const nota2 = 10;
 const nota3 = 10;
 const media = (nota1+nota2+nota3)/3
 console.log("O resultado da média é: "+media)
+
+const original = 300
+const desconto = 30 
+valorFinal = original*(30/100)
+console.log("O valor final com desconto é: "+valorFinal)
+
+salario= 50000
+console.log(`Seu salario bruto é: ${salario}`)
+if(salario>=2400 && salario<=3100){
+    desconto=165
+    rrfp= salario*0.075
+    salarioLiquido= salario-rrfp+desconto
+    console.log(`Seu salario liquido é: ${salarioLiquido}`)
+}
+else if(salario>3100 && salario<=4200){
+    desconto= 265
+    rrfp= salario*0.15
+    salarioLiquido= salario-rrfp+desconto
+    console.log(`Seu salario liquido é: ${salarioLiquido}`)
+}
+else if(salario>4200){
+    desconto= 500
+    rrfp= salario*0.25
+    salarioLiquido= salario-rrfp+desconto
+    console.log(`Seu salario liquido é: ${salarioLiquido}`)
+}
+else{
+    console.log(`Seu salario é muito baixo para descontar IR`)
+}
+
+taxaDolar= 5.40
+valorI= 100
+valorF= valorI/taxaDolar
+console.log(`valor ${valorF.toFixed(2)}`)
+
+c= 50
+f= (c*9/5)+32
+console.log(f)
+
+peso= 46
+altura= 1.63
+imc= peso/(altura*altura)
+console.log(`imc: ${imc.toFixed(1)}`)
