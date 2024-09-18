@@ -26,7 +26,7 @@ const nota1 = 6;
 const nota2 = 10;
 const nota3 = 10;
 const media = (nota1+nota2+nota3)/3
-console.log("O resultado da média é: "+media)
+console.log(´sua media é...${media}´)
 //desconto
 const original = 300
 const desconto = 30 
