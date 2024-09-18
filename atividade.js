@@ -22,11 +22,10 @@ const altura = 10;
 const area = (base*altura)/2;
 console.log("O resultado da area do triangulo é: "+area);
 //media
-const nota1 = 6;
-const nota2 = 10;
-const nota3 = 10;
-const media = (nota1+nota2+nota3)/3
-console.log(´sua media é...${media}´)
+const n1= 6;
+const n2= 7;
+const n3=8;
+console.log(`sua media é: ${media}`)
 //desconto
 const original = 300
 const desconto = 30 
