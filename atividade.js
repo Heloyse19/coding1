@@ -73,7 +73,9 @@ taxaDolar= 5.40
 valorI= 100
 valorF= valorI/taxaDolar
 console.log(`valor ${valorF.toFixed(2)}`)
+
 //conversor de celsius para fahrenheit
+
 c= 50
 f= (c*9/5)+32
 console.log(f)
@@ -82,5 +84,3 @@ peso= 46
 altura= 1.63
 imc= peso/(altura*altura)
 console.log(`imc: ${imc.toFixed(1)}`)
-
-console.log('teste vscode')
