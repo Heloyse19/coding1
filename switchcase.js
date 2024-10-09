@@ -1,5 +1,5 @@
 let nome= prompt("Qual seu nome?: ")
-let pesquisa= prompt("Escolha a fruta")
+let pesquisa= prompt("Escolha a fruta").toLoweCase();
 
 switch (pesquisa){
   case "limão":
