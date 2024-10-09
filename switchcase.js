@@ -11,3 +11,11 @@ switch (pesquisa){
   default:
     console.log(`A opção: ${pesquisa} não existe`)
 }
+
+const nota= prompt('Digite sua nota: ')
+if (typeof nota==='number') {
+  const resultado= (nota>=7) ? 'aprovado': 'reprovado'
+  console.log(resultado)
+} else{
+  alert('Digite um valor valido')
+}
